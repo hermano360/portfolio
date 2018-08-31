@@ -231,39 +231,45 @@ var _jsxFileName = "/Users/herminiogarcia/Folders/personal/interviews/personal-n
 var _jsxFileName = "/Users/herminiogarcia/Folders/personal/interviews/personal-next/components/Header.js";
 
 
-var linkStyle = {
-  marginRight: 15
+var styles = {
+  linkStyle: {
+    marginRight: 15
+  },
+  navbar: {
+    position: 'absolute'
+  }
 };
 
 var Header = function Header() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    style: styles.navbar,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 14
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    style: linkStyle,
+    style: styles.linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 15
     }
   }, "Home")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/budsy",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    style: linkStyle,
+    style: styles.linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 18
     }
   }, "Budsy")));
 };
@@ -1332,7 +1338,7 @@ var Index = function Index(props) {
       fileName: _jsxFileName,
       lineNumber: 8
     }
-  }, "I make web apps")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }, "Welcome To My Portfolio Site!")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     id: "main",
     __source: {
       fileName: _jsxFileName,

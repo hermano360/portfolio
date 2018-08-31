@@ -57,7 +57,7 @@ export default () => (
           We are currently migrating to Docker to leverage the performance and cost savings of containers
           deployed on our IBM Bluemix Cloud instances.</li>
           <li>The application uses a portion of Redux to manage pieces of state that span multiple layers of components.</li>
-          <li>Using Jest and Puppeteer, we are able to run unit tests and end-to-end integration tests for key aspects of design.</li>
+          <li>Using a combination of Jest, Enzyme, Nock, and Puppeteer, we are able to run unit tests and end-to-end integration tests for key aspects of design.</li>
         </ul>
         <hr />
         <header>

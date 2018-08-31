@@ -5,7 +5,7 @@ const Index = props => (<Layout>
   <div id="header">
     <span className="logo icon fa-cogs"></span>
     <h1>Hi. I'm Herminio</h1>
-    <p>I make web apps</p>
+    <p>Welcome To My Portfolio Site!</p>
   </div>
   <div id="main">
     <header className="major container medium">

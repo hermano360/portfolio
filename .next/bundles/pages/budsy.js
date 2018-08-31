@@ -231,39 +231,45 @@ var _jsxFileName = "/Users/herminiogarcia/Folders/personal/interviews/personal-n
 var _jsxFileName = "/Users/herminiogarcia/Folders/personal/interviews/personal-next/components/Header.js";
 
 
-var linkStyle = {
-  marginRight: 15
+var styles = {
+  linkStyle: {
+    marginRight: 15
+  },
+  navbar: {
+    position: 'absolute'
+  }
 };
 
 var Header = function Header() {
   return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    style: styles.navbar,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 8
+      lineNumber: 13
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 9
+      lineNumber: 14
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    style: linkStyle,
+    style: styles.linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 15
     }
   }, "Home")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_1_next_link___default.a, {
     href: "/budsy",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 17
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    style: linkStyle,
+    style: styles.linkStyle,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 18
     }
   }, "Budsy")));
 };
@@ -1550,7 +1556,7 @@ var _jsxFileName = "/Users/herminiogarcia/Folders/personal/interviews/personal-n
       fileName: _jsxFileName,
       lineNumber: 60
     }
-  }, "Using Jest and Puppeteer, we are able to run unit tests and end-to-end integration tests for key aspects of design.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
+  }, "Using a combination of Jest, Enzyme, Nock, and Puppeteer, we are able to run unit tests and end-to-end integration tests for key aspects of design.")), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("hr", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 62
