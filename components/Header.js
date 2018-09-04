@@ -11,12 +11,12 @@ const styles = {
 
 const Header = () => (
     <div style={styles.navbar}>
-        <Link href="/">
+        {/* <Link href="/">
           <a style={styles.linkStyle}>Home</a>
         </Link>
         <Link href="/budsy">
           <a style={styles.linkStyle}>Budsy</a>
-        </Link>
+        </Link> */}
     </div>
 )
 
