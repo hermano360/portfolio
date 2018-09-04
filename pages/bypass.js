@@ -1,81 +1,44 @@
 import Layout from '../components/Layout'
-import Link from 'next/link'
 
 export default () => (
-  <Layout>
-    <div id="header">
-      <span class="logo icon fa-cogs"></span>
-      <h1>Hi. I'm Herminio</h1>
-      <p>I make web apps</p>
+<Layout>
+  <div id="header">
+    <span className="logo icon fa-leaf"></span>
+    <h1>Bypass</h1>
+  </div>
+  <div id="main">
+    <div className="box alt container">
+      <section className="feature left">
+        <a href="https://www.youtube.com/watch?v=8YItubAhGH0" target="_blank" rel="noopener noreferrer" className="image list"><img src="static/images/bypassapp.png" alt="" /></a>
+        <div className="content">
+          <h3>Customer Application</h3>
+          <p>Giving users the ability to safely maneuver their city with the knowledge derived from intelligent analysis of crime data.</p>
+        </div>
+      </section>
     </div>
-    <div id="main">
-      <header class="major container medium">
-        <h2>Full Stack Engineer</h2>
-        <p>
-          With special emphasis on the React web and React Native ecosystem, I build fullstack applications using Node/Express backends, GraphQL querying, and AWS cloud services.
-        </p>
+    <div className="box container">
+      <header>
+        <h2>About</h2>
       </header>
-
-      <div class="box alt container">
-        <section class="feature left">
-          <Link  href={`/budsy`}>
-            <a class="image list"><img src="static/images/budsyapp.png" alt=""/></a>
-          </Link>
-          <div class="content">
-            <h3>Budsy</h3>
-            <p>Using artificial intelligence, we are able to give you the best marijuana recommendations.</p>
-          </div>
-        </section>
-        <section class="feature right">
-          <Link  href={`/bypass`}>
-            <a class="image icon fa-code"><img src="static/images/pic02.jpg" alt=""/></a>
-          </Link>
-
-          <div class="content">
-            <h3>Bypass</h3>
-            <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-          </div>
-        </section>
-        <section class="feature left">
-          <a href="#" class="image icon fa-mobile"><img src="static/images/pic03.jpg" alt=""/></a>
-          <div class="content">
-            <h3>Aqua Data</h3>
-            <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-          </div>
-        </section>
-        <section class="feature right">
-          <a href="https://youtu.be/S0Y7gasAURs" class="image list"><img src="static/images/nuggitlogo.png" alt=""/></a>
-          <div class="content">
-            <h3>Nuggit</h3>
-            <p>
-              Giving an AR experience to the cannabis shopping experience.
-            </p>
-          </div>
-        </section>
-        <section class="feature left">
-          <a href="#" class="image icon fa-mobile"><img src="static/images/pic03.jpg" alt=""/></a>
-          <div class="content">
-            <h3>Easy Weights</h3>
-            <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
-          </div>
-        </section>
-        <section class="feature right">
-          <a href="#" class="image icon fa-mobile"><img src="static/images/pic03.jpg" alt=""/></a>
-          <div class="content">
-            <h3>Ether Lookup</h3>
-            <p>
-              Allows you to easily look up the current balance or previous transactions associated to a given ethereum address.
-            </p>
-          </div>
-        </section>
-        <section class="feature left">
-          <a href="https://hermano360.github.io/howard-dental/" class="image icon fa-mobile"><img src="static/images/pic03.jpg" alt=""/></a>
-          <div class="content">
-            <h3>Fresh Dental</h3>
-            <p>Client website used to give information about a launching dental practice.</p>
-          </div>
-        </section>
-      </div>
+      <section>
+        <header>
+          <h3>Customer App</h3>
+        </header>
+        <ul className="default">
+          <li>As a team, we were responsible for creating and testing in-house UI/UX designs.</li>
+          <li>Using Create-React-App as the React rendering engine, I was responsible for this application capable of interacting with
+          a Node backend webservice.</li>
+          <li>I was responsible for cleaning and standardizing crime data coming from cities using numpy and panda. Using gaussian distribution,
+            a heatmap effect was created.</li>
+          <li>I developed the nascent machine learning models, using SkLearn to use intermediate maps and the contributing weights to build the
+            final map used for navigation.
+          </li>
+          <li>
+            Using a third-party routing algorithm from ArcGIS, we used the crime map with final severity levels to adjust a walking route for users.
+          </li>
+        </ul>
+      </section>
     </div>
+  </div>
   </Layout>
 )

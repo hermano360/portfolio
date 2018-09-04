@@ -42,7 +42,7 @@ var _jsxFileName = "/Users/herminiogarcia/Folders/personal/interviews/personal-n
     }
   }, "Please reach out for any reason! I am more than happy to answer anything you may be curious about!"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("form", {
     method: "post",
-    action: "#",
+    action: "https://formspree.io/hermano360@gmail.com",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -131,89 +131,37 @@ var _jsxFileName = "/Users/herminiogarcia/Folders/personal/interviews/personal-n
       lineNumber: 31
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    className: "icon fa-twitter",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "label",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 31
-    }
-  }, "Twitter"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    className: "icon fa-facebook",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "label",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 32
-    }
-  }, "Facebook"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    className: "icon fa-instagram",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
-    className: "label",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 33
-    }
-  }, "Instagram"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 34
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
+    href: "https://github.com/hermano360",
     className: "icon fa-github",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 31
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
     className: "label",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 31
     }
   }, "Github"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("li", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 32
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    className: "icon fa-dribbble",
+    href: "https://www.linkedin.com/in/herminiogarcia/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    className: "icon fa-linkedin",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 32
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("span", {
     className: "label",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 32
     }
   }, "Dribbble"))))));
 });
@@ -1426,7 +1374,7 @@ var Index = function Index(props) {
       lineNumber: 30
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "static/images/pic02.jpg",
+    src: "static/images/bypassapp.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
@@ -1436,167 +1384,102 @@ var Index = function Index(props) {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 33
+      lineNumber: 32
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 34
+      lineNumber: 33
     }
   }, "Bypass"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 35
+      lineNumber: 34
     }
-  }, "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
+  }, "Giving users the knowledge to safely navigate their city."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
     className: "feature left",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
+    href: "/aquadata",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 38
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
     className: "image icon fa-mobile",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "static/images/pic03.jpg",
+    src: "static/images/aquadata.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 39
     }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 40
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 41
     }
-  }, "Aqua Data"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 42
     }
-  }, "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
+  }, "Aqua Data"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 43
+    }
+  }, "Empowering citizens to view and report water-related incidents"))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
     className: "feature right",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 45
+      lineNumber: 46
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "https://youtu.be/S0Y7gasAURs",
+    target: "_blank",
+    rel: "noopener noreferrer",
     className: "image icon list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "static/images/nuggitlogo.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 46
+      lineNumber: 47
     }
   })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 47
+      lineNumber: 48
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 48
+      lineNumber: 49
     }
   }, "Nuggit"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 49
+      lineNumber: 50
     }
   }, "Giving an AR experience to the cannabis shopping experience."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
     className: "feature left",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 54
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    className: "image icon fa-mobile",
-    __source: {
-      fileName: _jsxFileName,
       lineNumber: 55
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "static/images/pic03.jpg",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 55
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 56
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 57
-    }
-  }, "Easy Weights"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 58
-    }
-  }, "Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
-    className: "feature right",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 61
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
-    href: "#",
-    className: "image icon fa-mobile",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
-    src: "static/images/pic03.jpg",
-    alt: "",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 62
-    }
-  })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
-    className: "content",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 63
-    }
-  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 64
-    }
-  }, "Ether Lookup"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 65
-    }
-  }, "Allows you to easily look up the current balance or previous transactions associated to a given ethereum address."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
-    className: "feature left",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 70
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
     href: "https://hermano360.github.io/howard-dental/",
@@ -1605,32 +1488,76 @@ var Index = function Index(props) {
     className: "image icon fa-mobile list",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 56
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
     src: "static/images/dental-cover.png",
     alt: "",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 71
+      lineNumber: 56
     }
   })), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
     className: "content",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 72
+      lineNumber: 57
     }
   }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 73
+      lineNumber: 58
     }
   }, "Fresh Dental"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 74
+      lineNumber: 59
     }
-  }, "Client website used to give information about a launching dental practice."))))));
+  }, "Client website used to give information about a launching dental practice."))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("section", {
+    className: "feature right",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 62
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(__WEBPACK_IMPORTED_MODULE_2_next_link___default.a, {
+    href: "/etherlookup",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 63
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("a", {
+    href: "https://cryptic-caverns-28884.herokuapp.com/",
+    target: "_blank",
+    rel: "noopener noreferrer",
+    className: "image icon fa-mobile",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("img", {
+    src: "static/images/ethereum.png",
+    alt: "",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 64
+    }
+  }))), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("div", {
+    className: "content",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 66
+    }
+  }, __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("h3", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 67
+    }
+  }, "Ether Lookup"), __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 68
+    }
+  }, "Allows you to easily look up the current balance or previous transactions associated to a given ethereum address."))))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);

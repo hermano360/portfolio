@@ -27,23 +27,24 @@ const Index = props => (<Layout>
       </section>
       <section className="feature right">
         <Link  href={`/bypass`}>
-          <a className="image icon fa-code"><img src="static/images/pic02.jpg" alt=""/></a>
+          <a className="image icon fa-code"><img src="static/images/bypassapp.png" alt=""/></a>
         </Link>
-
         <div className="content">
           <h3>Bypass</h3>
-          <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+          <p>Giving users the knowledge to safely navigate their city.</p>
         </div>
       </section>
       <section className="feature left">
-        <a href="#" className="image icon fa-mobile"><img src="static/images/pic03.jpg" alt=""/></a>
+        <Link  href={`/aquadata`}>
+          <a className="image icon fa-mobile"><img src="static/images/aquadata.png" alt=""/></a>
+        </Link>
         <div className="content">
           <h3>Aqua Data</h3>
-          <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+          <p>Empowering citizens to view and report water-related incidents</p>
         </div>
       </section>
       <section className="feature right">
-        <a href="https://youtu.be/S0Y7gasAURs" className="image icon list"><img src="static/images/nuggitlogo.png" alt=""/></a>
+        <a href="https://youtu.be/S0Y7gasAURs"  target="_blank" rel="noopener noreferrer" className="image icon list"><img src="static/images/nuggitlogo.png" alt=""/></a>
         <div className="content">
           <h3>Nuggit</h3>
           <p>
@@ -52,26 +53,21 @@ const Index = props => (<Layout>
         </div>
       </section>
       <section className="feature left">
-        <a href="#" className="image icon fa-mobile"><img src="static/images/pic03.jpg" alt=""/></a>
+        <a href="https://hermano360.github.io/howard-dental/" target="_blank" rel="noopener noreferrer"  className="image icon fa-mobile list"><img src="static/images/dental-cover.png" alt=""/></a>
         <div className="content">
-          <h3>Easy Weights</h3>
-          <p>Vitae natoque dictum etiam semper magnis enim feugiat amet curabitur tempor orci penatibus. Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis fusce lacus.</p>
+          <h3>Fresh Dental</h3>
+          <p>Client website used to give information about a launching dental practice.</p>
         </div>
       </section>
       <section className="feature right">
-        <a href="#" className="image icon fa-mobile"><img src="static/images/pic03.jpg" alt=""/></a>
+        <Link  href={`/etherlookup`}>
+          <a href="https://cryptic-caverns-28884.herokuapp.com/" target="_blank" rel="noopener noreferrer" className="image icon fa-mobile"><img src="static/images/ethereum.png" alt=""/></a>
+        </Link>
         <div className="content">
           <h3>Ether Lookup</h3>
           <p>
             Allows you to easily look up the current balance or previous transactions associated to a given ethereum address.
           </p>
-        </div>
-      </section>
-      <section className="feature left">
-        <a href="https://hermano360.github.io/howard-dental/" target="_blank" rel="noopener noreferrer"  className="image icon fa-mobile list"><img src="static/images/dental-cover.png" alt=""/></a>
-        <div className="content">
-          <h3>Fresh Dental</h3>
-          <p>Client website used to give information about a launching dental practice.</p>
         </div>
       </section>
     </div>
